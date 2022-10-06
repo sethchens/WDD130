@@ -1,0 +1,49 @@
+body{
+    background-color:violet;
+}
+h1:hover{
+    color: black;
+}
+header h1{
+    width: 480px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+main p{
+    width: 480px;
+    margin:10px auto;
+    text-align: center;
+}
+main p.quote{
+    color: white;
+}
+main img#pres{
+    display: block;
+    width: 160px;
+    margin: 10px auto;
+    text-align: center;
+}
+main p#list{
+    width: 440px;
+    margin: 0 auto;
+    text-align: left;
+}
+main p#quote{
+    font-size: 22px;
+    width: 200px;
+    line-height: 30px;
+    margin: 30px auto;
+    text-align: center;
+    color:white;
+}
+footer p.intro{
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer p#title{
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+}
