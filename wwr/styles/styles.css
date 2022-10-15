@@ -1,4 +1,5 @@
 div#content{
+    background-color: #F2F7F8;
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
@@ -17,6 +18,10 @@ nav a:hover{
     text-decoration: none;
 }
 
+#hero-img{
+    width: 100%;
+}
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 
@@ -27,7 +32,6 @@ nav a:hover{
 }
 
 main{
-    margin: 60px;
     text-align: center;
 }
 
@@ -123,10 +127,6 @@ footer.social img{
 
 .icon{
     padding-top: 10px;
-}
-
-#hero-image{
-    width: 100%;
 }
 
 .home-title {
