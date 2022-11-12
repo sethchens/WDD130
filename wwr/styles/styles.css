@@ -17,11 +17,11 @@ nav a{
     color: #AEB47E;
     background-color: #0E3B43;
     padding: 35px;
+    text-decoration: none;
 }
 
 nav a:hover{
     color: #F2F7F8;
-    background-color: #78AFBA;
     text-decoration: none;
 }
 
@@ -153,8 +153,10 @@ header{
 }
 
 nav{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-around;
+    align-content: center;
 
 }
 
