@@ -223,7 +223,6 @@ footer a:hover{
 h2{
     margin: 0;
 }
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

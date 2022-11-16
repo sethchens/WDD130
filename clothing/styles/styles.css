@@ -1,0 +1,52 @@
+
+body{
+    font-family: "Martel", serif;
+}
+div#header{
+    background-color: #D9E2D5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    height: 150px;
+    margin: 0 0 5px 0;
+}
+img#logo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100px;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+a.header-link{
+    margin: auto;
+    text-decoration: none;
+    color: #3F6765;
+    font-family: "Permanent marker", cursive;
+}
+a.header-link:hover{
+    color: #66817f;
+}
+a#nav1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+a#nav2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+a#nav3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+img#hero1{
+    width: 97.8%;
+    opacity: .7;
+    position: relative;
+    z-index: -1;
+}
+img#hero2{
+    width: 100%;
+    width: 40%;
+    z-index: 1;
+    float: left;
+}
