@@ -132,15 +132,23 @@ a#site-plan{
     font-size: 200%;
     font-family: "Permanent marker", cursive;
     color: #3F6765;
+    text-decoration: none;
     grid-column: 2/3;
     margin: auto;
+}
+a#site-plan:hover{
+    color: #66817f;
 }
 a#contact-link{
     font-size: 200%;
     font-family: "Permanent marker", cursive;
     color: #3F6765;
+    text-decoration: none;
     grid-column: 3/4;
     margin: auto;    
+}
+a#contact-link:hover{
+    color: #66817f;
 }
 :root {    
     --social-icon1: #e4405f;
