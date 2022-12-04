@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UndoYoung</title>
-    <link rel="stylesheet" href="styles/styles.css"
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/page3-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Martel:wght@300&family=Oswald:wght@500&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martel:wght@300&family=Oswald:wght@500&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
 </head>
+
 <body id="body">
     <div>
         <header>
@@ -22,13 +27,30 @@
         </header>
         <main>
             <div class="intro">
+                <div class="component">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="images/page3-image/video.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- Optional: some overlay text to describe the video -->
+                    <div class="content">
+                        <h1>Portland</h1>
+                        <p>May we introduce where our designer is from. Have you ever heard of Portland? I bet you have. But, is the Portland here the same as where she's from? No.</p>
+                        <!-- Use a button to pause/play the video with JavaScript -->
+                        <button id="myBtn" onclick="myFunction()">Pause</button>
+                            <script src="script/co.js"></script>
+                    </div>
+                </div>
                 <div id="designer">
                     <img class="page3" src="images/page3-image/designer.jpeg" alt="image for page3">
                     <p>
-                        Loren Wesley, being born in 1998, is the chief clothing style designer coorporate with us.<br> 
-                        Her life is simply a lengend. From art elemantary school to wroking as a chief clothing designer, 
-                        she's already has a great influence on the art and fashion industry. This summer, with a new release
-                        of our brand, she adds a brand new insight on fashion along with the unique color palette to give everyone
+                        Loren Wesley, being born in 1998, is the chief clothing style designer coorporate with us.<br>
+                        Her life is simply a lengend. From art elemantary school to wroking as a chief clothing
+                        designer,
+                        she's already has a great influence on the art and fashion industry. This summer, with a new
+                        release
+                        of our brand, she adds a brand new insight on fashion along with the unique color palette to
+                        give everyone
                         a chance of taking a glimpse of the future trend.<br>
                     </p>
                 </div>
@@ -36,7 +58,8 @@
                     <img class="page3" src="images/page3-image/birthplace.jpeg" alt="image for page3">
                     <p>
                         Portandland<br>
-                        A woner place where all the influential fashion designers live, or at least this is where Loren Wesley is from.
+                        A woner place where all the influential fashion designers live, or at least this is where Loren
+                        Wesley is from.
                     </p>
                 </div>
             </div>
@@ -44,19 +67,21 @@
         <footer>
             <div class="footer-grid">
                 <div id="div1">
-                    <div id="brand-name">UndoYoung &copy2022</div>
+                    <div id="brand-name">UndoYoung &copy;2022</div>
                 </div>
+                <a id="site-plan" href="site-plan.html">Site Plan</a>
+                <a id="contact-link" href="#">Contact Us</a>
                 <div id="div2">
                     <ul class="icon-list">
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="icon-item">
-                        <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
-                    </li>   
+                        <li class="icon-item">
+                            <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -64,4 +89,5 @@
     </div>
     <script src="https://kit.fontawesome.com/0f71accc02.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 @import "https://unpkg.com/open-props/normalize.min.css";
 body#body{
+    background-color: white;
     width: 100%;
     min-height: 100vh;
     margin: auto;
@@ -101,7 +102,7 @@ div.product-scroll{
     padding: 1em;
     margin: 1em;
     background:#f0f0f0;
-    border-radius: 6px;
+    border-radius: 8px;
     transition: transform 400ms;
 }
 .product-item > img{
@@ -112,6 +113,9 @@ div.product-scroll{
 .product-item:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+img.cloth-item{
+    border-radius: 4px;
 }
 /*footer start*/
 div.footer-grid{
