@@ -1,34 +1,40 @@
+body{
+  background:
+  linear-gradient(
+      to right,
+      rgb(63 103 101/ .8), rgb(0 0 0/ 0)
+  );
+}
 
-/*component*/
 div.component{
     display: grid;
     grid-template-columns: 1fr;;
     grid-template-rows: 2fr 1fr;
-    background:
-    linear-gradient(
-        to right,
-        rgb(0 0 0/ .8), rgb(0 0 0/ 0)
-    );
+    margin: 2em 0 1em 0;
 }
 #myVideo {
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 50%;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
     opacity: .5;
+    border-radius: 10px;
   }
   
-  /* Add some content at the bottom of the video/page */
   .content {
+    font-size: 1.5em;
     bottom: 0;
     background: rgba(0, 0, 0, 0.6);
-    color: #f1f1f1;
-    width: 100%;
+    color: #D9E2D5;
     padding: 20px;
+    margin: 2em 0 2em 0;
+    background:
+    linear-gradient(
+        to left,
+        rgb(63 103 101/ .8), rgb(0 0 0/ 0)
+    );
   }
   
-  /* Style the button used to pause/play the video */
   #myBtn {
     width: 200px;
     font-size: 18px;
@@ -43,4 +49,29 @@ div.component{
     background: #ddd;
     color: black;
   }
-  /*component*/
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2em 0 2em 0;
+  color: #D9E2D5;
+  background:
+  linear-gradient(
+      to left,
+      rgb(63 103 101/ .8), rgb(0 0 0/ 0)
+  );
+}
+
+img.page3{
+  width: 50%;
+  margin: 1.5em;
+  grid-column: 1/2;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.card p{
+  font-size: 1.5em;
+  margin: auto 2em auto 2em;
+
+}
